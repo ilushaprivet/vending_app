@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+#bpMain {
+    -fx-background-color: linear-gradient(#fcf6ea, #ffda9e);
+}
+
+Label {
+	-fx-font-family: 'Permanent Marker', cursive;
+	-fx-font-size: 17px;
+}
+
+Button {
+	-fx-font-size: 13px;
+	-fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 10px;
+    -fx-focus-color: black;
+    -fx-background-color: #f8a47d;
+}
+
+Button:hover{
+	-fx-background-color: #f9c0a6;
+}
+
+ListView {
+	-fx-focus-color: black;
+	-fx-selection-bar:#f8a47d;
+    -fx-selection-bar-non-focused: #f8a47d;
+}
+
+.dialog:header *.header-panel {
+    -fx-font-family: 'Permanent Marker', cursive;
+    -fx-background-color: #ffda9e;
+    
+}
+
+.dialog > *.content.label {
+	-fx-font-family: system;
+	-fx-font-size: 16px;
+	-fx-background-color: #fff4da;
+}
+
+.dialog > *.button-bar {
+	-fx-background-color: #fff4da;
+}
+
